@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIR_DEMO_ANGULAR_B31F8 }}
           channelId: live
           projectId: fir-demo-angular-b31f8
+        env:
+            FIREBASE_CLI_EXPERIMENTS: webframeworks
